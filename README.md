@@ -4,10 +4,10 @@ This script traverses user-defined routes on an API, flattens the response into 
 
 ## Getting started
 
-### Under 'App Registrations' register a new App
-### Copy the application (client) ID somewhere
-### Within the App, under `Certificates & secrets`, create a new client secret - STORE THIS SAFELY
-### Within the App, under `API permissions`, add the following permissions:
+1. Under 'App Registrations' register a new App
+2. Copy the application (client) ID somewhere
+3. Within the App, under `Certificates & secrets`, create a new client secret - STORE THIS SAFELY
+4. Within the App, under `API permissions`, add the following permissions:
 Microsoft Graph > Application Permissions
 - Files.ReadWrite.All
 - Sites.ReadWrite.All
